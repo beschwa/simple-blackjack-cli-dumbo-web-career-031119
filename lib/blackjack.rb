@@ -1,5 +1,5 @@
 def welcome
-  puts  "Welcome to the Blackjack Table"
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -40,6 +40,7 @@ def hit (card_total)
     new_total += deal_card
   else
     new_total
+  end
 end
 
 def invalid_command
