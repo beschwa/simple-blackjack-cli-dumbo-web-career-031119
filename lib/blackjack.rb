@@ -58,5 +58,5 @@ def runner
   while current_total <= 21 do
     current_total = hit? (current_total)
   end
-  end_game
+  end_game (current_total)
 end
